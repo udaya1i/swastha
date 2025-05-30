@@ -18,7 +18,11 @@
     <packaging>war</packaging>
 
     <dependencies>
-
-
+        <dependency>
+            <groupId>com</groupId>
+            <artifactId>core</artifactId>
+        </dependency>
     </dependencies>
+
+
 </project>
