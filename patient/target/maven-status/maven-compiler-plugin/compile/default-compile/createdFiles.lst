@@ -1,8 +1,11 @@
 com/swastha/dto/payload/PatientCreatePayload.class
 com/swastha/dto/rawRequest/PatientCreateRequest.class
-com/swastha/repo/PatientRepository.class
 com/swastha/PatientApplication.class
 com/swastha/facade/PatientFacade.class
+com/swastha/dto/response/PatientCreateResponse.class
+com/swastha/dto/mapper/PatientCreateResponseMapper.class
 com/swastha/service/PatientService.class
+com/swastha/dto/mapper/PatientCreateToPayloadMapper.class
 com/swastha/dto/rawRequest/requestValidator/PatientCreateRequestValidator.class
+com/swastha/service/PatientQueryService.class
 com/swastha/controller/PatientController.class

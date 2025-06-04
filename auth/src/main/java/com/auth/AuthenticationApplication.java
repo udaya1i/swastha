@@ -1,11 +1,15 @@
-package com.auth;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication(scanBasePackages = "com")
-public class AuthenticationApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(AuthenticationApplication.class, args);
-    }
-}
+//package com.auth;
+//
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.autoconfigure.domain.EntityScan;
+//
+//@SpringBootApplication(scanBasePackages = "com")
+//@EntityScan(basePackages = "com.entity")
+//public class AuthenticationApplication {
+//    public static void main(String[] args) {
+//        SpringApplication.run(AuthenticationApplication.class, args);
+//    }
+//
+//
+//}

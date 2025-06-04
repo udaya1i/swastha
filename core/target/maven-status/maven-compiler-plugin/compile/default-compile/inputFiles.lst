@@ -1,3 +1,5 @@
+/home/udaya/swasth-api/core/src/main/java/com/config/AuthenticationManager.java
+/home/udaya/swasth-api/core/src/main/java/com/config/SecurityConfig.java
 /home/udaya/swasth-api/core/src/main/java/com/constants/ApiConstant.java
 /home/udaya/swasth-api/core/src/main/java/com/db/DbConfig.java
 /home/udaya/swasth-api/core/src/main/java/com/dto/payload/Payload.java
@@ -7,5 +9,9 @@
 /home/udaya/swasth-api/core/src/main/java/com/entity/BaseEntity.java
 /home/udaya/swasth-api/core/src/main/java/com/entity/Patient.java
 /home/udaya/swasth-api/core/src/main/java/com/repo/AbstractRepository.java
+/home/udaya/swasth-api/core/src/main/java/com/repo/patient/PatientRepository.java
+/home/udaya/swasth-api/core/src/main/java/com/service/UserPrincipal.java
+/home/udaya/swasth-api/core/src/main/java/com/service/UserService.java
+/home/udaya/swasth-api/core/src/main/java/com/service/patient/PatientService.java
 /home/udaya/swasth-api/core/src/main/java/com/validator/Required.java
 /home/udaya/swasth-api/core/src/main/java/com/validator/constraint/RequiredValidator.java

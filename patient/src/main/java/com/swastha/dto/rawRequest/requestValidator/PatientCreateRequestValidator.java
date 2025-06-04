@@ -26,7 +26,7 @@ public class PatientCreateRequestValidator implements
 
     @Override
     public PatientCreatePayload validate(PatientCreateRequest request) {
-        Optional<Patient> byUsername = patientQueryService.findByUsername(request.getUsername(), request.getMobileNumber());
+        Optional<Patient> byUsername = patientQueryService.findByUsername(request.getUsername());
         if (byUsername.isPresent()) {
             throw new RuntimeException("Patient with username " + request.getUsername() + " not found");
         }

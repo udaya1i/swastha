@@ -1,10 +1,9 @@
 package com.swastha.service;
 
 import com.entity.Patient;
-import com.swastha.repo.PatientRepository;
-import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
+import com.repo.patient.PatientRepository;
+ import lombok.AllArgsConstructor;
+ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -19,8 +18,8 @@ public class PatientQueryService {
         return patientRepository.findAll();
     }
 
-    public Optional<Patient> findByUsername(String username, String mobileNumber){
-        return this.patientRepository.findByUsernameAndMobileNumber(username, mobileNumber);
+    public Optional<Patient> findByUsername(String username){
+        return this.patientRepository.findByUsername(username);
     }
 
 

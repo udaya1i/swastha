@@ -1,8 +1,8 @@
 package com.swastha.service;
 
 import com.entity.Patient;
+import com.repo.patient.PatientRepository;
 import com.swastha.dto.payload.PatientCreatePayload;
-import com.swastha.repo.PatientRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
