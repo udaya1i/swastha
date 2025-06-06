@@ -3,6 +3,7 @@ package com.swastha.service;
 import com.entity.Patient;
 import com.repo.patient.PatientRepository;
 import com.swastha.dto.payload.PatientCreatePayload;
+import com.util.BCryptPasswordEncoderUtil;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +28,7 @@ public class PatientService {
         patient.setAddress(patientCreatePayload.getAddress());
         patient.setAge(patientCreatePayload.getAge());
         patient.setStatus(patientCreatePayload.getStatus());
-        patient.setPassword(patientCreatePayload.getPassword());
+        patient.setPassword(BCryptPasswordEncoderUtil.encode(patientCreatePayload.getPassword()));
         patient.setStatus("CREATED");
         patient.setUsername(patientCreatePayload.getUsername());
         return patientRepository.save(patient);
